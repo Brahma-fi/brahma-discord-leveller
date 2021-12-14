@@ -1,0 +1,38 @@
+{
+  "general": {
+    "id": 870291465476128789,
+    "weight": 1
+  },
+  "introduce-yourself": {
+    "id": 910192678380134502,
+    "weight": 3
+  },
+  "feedback": {
+    "id": 894887427452317696,
+    "weight": 3
+  },
+  "support": {
+    "id": 870346761342947399,
+    "weight": 1
+  },
+  "voting": {
+    "id": 908261152352518145,
+    "weight": 2
+  },
+  "frens": {
+    "id": 901872145586589782,
+    "weight": 2
+  },
+  "degens": {
+    "id": 902067728825851964,
+    "weight": 2
+  },
+  "strategies": {
+    "id": 908667480258515004,
+    "weight": 3
+  },
+  "bug-reports": {
+    "id": 870348609558806599,
+    "weight": 3
+  }
+}
