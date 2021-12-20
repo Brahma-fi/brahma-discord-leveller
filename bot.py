@@ -38,6 +38,23 @@ async def scan_users(ctx):
     with open(filepath("users.json"), "w") as outfile:
         outfile.write(json_users)
 
+@bot.command(name="scan-vc")
+async def scan_vc(ctx):
+    channel = bot.get_channel(901493849829031976)
+    members = channel.members
+
+    users = []
+    for member in members:
+        users.append({
+            "user_name": str(member),
+            "user_id": member.id
+        })
+    
+    json_users = json.dumps(users, indent=4)
+
+    with open(filepath("ama_users.json"), "w") as outfile:
+        outfile.write(json_users)
+
 @bot.command(name="scan-messages")
 async def scan_messages(ctx):
     user_list = []
